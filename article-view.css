@@ -1,0 +1,47 @@
+.header.header__article{
+	height: 450px;
+	
+	
+	
+}
+    
+.header__article .header__texture{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;left: 0;
+        background: url('../img/image1.jpg') center no-repeat;
+        background-size: cover;
+        z-index: 1;
+        opacity: 0.4;
+    }
+
+    .article__view-container{
+        width: 70%;
+        margin: auto;
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+.article__view-title{
+    
+    line-height: 30px;
+    margin: 0;
+    font-size: 30px;
+    color:  rgb(255, 8, 0);    
+}
+
+.articles__view-content{
+    padding-top: 30px;
+    text-align: justify;
+    font-weight: 300;
+    font font-size: 18px;
+    font-family: 'Mukta', sans-serif;
+}
+.article__view-subtitle{
+    font-weight: 400;
+    margin:10px 0;
+    font-size: 14px;
+    font-style: italic;
+    opacity: 0.8;
+
+}
